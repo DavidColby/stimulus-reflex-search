@@ -1,24 +1,17 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+The code in this repository was written to accompany the StimulusReflex live search guide originally published at [on my blog](https://www.colby.so/posts/live-search-with-rails-and-stimulusreflex) in August of 2021.
 
-Things you may want to cover:
+This code demonstrates the implementation of a type-as-you-search experience with Ruby on Rails, powered by StimulusReflex.
 
-* Ruby version
+To run this project locally, clone the code to your development environment, `cd` into the cloned repository and then:
 
-* System dependencies
+```shell
+bundle
+rails db:create db:migrate
+rails s
+```
 
-* Configuration
+Then navigate to [http://localhost:3000/players](http://localhost:3000/players) in your browser to see the project in action.
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+If you have questions or feedback on this repo, you can find me on [Twitter](https://twitter.com/davidcolbyatx).
